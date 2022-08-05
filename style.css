@@ -1,36 +1,37 @@
-* {
-}
 body {
   font-family: "DM Sans", sans-serif;
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
-  /* background-color: #e3f6ff; */
-  /* background-color: #f4ffec; */
-  /* background-color: black; */
+  box-sizing: border-box;
 }
+
 .text-center {
   text-align: center;
 }
+
 h1 {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: bolder;
 }
+
 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: bolder;
 }
+
 .heading-color {
   color: #febe3a;
 }
 
 /* btn */
+
 .btn-wrap {
   display: flex;
   justify-content: center;
 }
+
 .btn {
   background-color: #f9004d;
   border: 2px solid #f9004d;
@@ -40,11 +41,13 @@ h2 {
   transition: all 0.3s ease;
   margin: 0.75rem 0;
 }
+
 .btn a {
   text-decoration: none;
   color: white;
   font-size: 17px;
 }
+
 .btn:hover {
   background-color: white;
   color: #f9004d;
@@ -53,61 +56,36 @@ h2 {
   color: #f9004d;
 }
 
-section.first-section .container {
+/* hero section  */
+
+section.hero-section .container {
   display: flex;
   width: 80%;
   margin: 0 auto;
   padding-top: 5rem;
 }
-.style-btn {
-  border: none;
-  background-color: #febe3a;
-  color: white;
-  padding: 15px 40px;
-  border-radius: 35px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: block;
-  margin: 0.75rem 0;
-}
-.style-btn:hover {
-  background-color: white;
-  color: #febe3a;
-  border: 2px solid #febe3a;
-}
+
 .right-side .person-image img {
   width: 75%;
   padding-left: 5rem;
 }
-.side-border {
-  /* border: 2px solid red; */
-}
-/* second section  */
-section.second-section h1 {
+
+/* my ambbition in 2022 */
+
+section.ambbition-section h1 {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-section.second-section .container {
+
+section.ambbition-section .container {
   display: flex;
   width: 80%;
   justify-content: space-between;
   margin: 0 auto;
 }
-section.second-section .container .ammbition-image {
-  width: 50%;
-}
 
-.mission {
-  background-color: #edf5f6;
-  width: 20%;
-  padding: 2rem;
-  border-radius: 15px;
-}
-.vission {
-  background-color: #ffeeee;
-}
-.goals {
-  background-color: #fff4d6;
+section.ambbition-section .container .ammbition-image {
+  width: 50%;
 }
 
 .ammbition {
@@ -116,7 +94,22 @@ section.second-section .container .ammbition-image {
   border-radius: 15px;
 }
 
-section.third-section .container {
+/* colors */
+
+.bg-skyblue {
+  background-color: #edf5f6;
+}
+
+.bg-lightred {
+  background-color: #ffeeee;
+}
+.bg-lightgold {
+  background-color: #fff4d6;
+}
+
+/* creative work  */
+
+section.creative-section .container {
   display: flex;
   width: 80%;
   margin: 5rem auto;
@@ -126,20 +119,36 @@ section.third-section .container {
   width: 100%;
   border-radius: 15px;
 }
-section.third-section .container .right-side {
+
+section.creative-section .container .right-side {
   margin-left: 3rem;
 }
+
 /* our services */
-section.services .container {
+
+section.services .container .card-wraper {
   display: flex;
-  width: 80%;
-  margin: 0 auto;
+  justify-content: space-between;
+}
+
+section.services .container .card-wraper .card {
+  padding: 1rem;
+  width: 20%;
+  border-radius: 15px;
 }
 /* footer */
+
 footer {
   background-color: black;
   color: white;
 }
+
 footer h1 {
   padding: 2rem 0;
 }
+
+footer p {
+  padding: 1rem 0;
+  margin-bottom: 0;
+}
+/* end g */
